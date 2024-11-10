@@ -1,4 +1,5 @@
-🎬 Movie Ticket Reservation System
+###🎬 Movie Ticket Reservation System
+
 A Java-based Movie Ticket Reservation System created as a micro-project during my diploma. This application utilizes Java Swing for the user interface, JDBC for database connectivity, and the Oracle Thin Driver to manage data operations. Designed to simulate a real-world ticket booking experience, it was my first significant step into advanced Java programming!
 
 💻 Features
