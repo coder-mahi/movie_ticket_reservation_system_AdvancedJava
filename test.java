@@ -19,14 +19,7 @@ public class test{
 		    Statement stmt = con.createStatement();
 		    ResultSet rs=stmt.executeQuery("select * from movie_ticket_reservation");
 
-			while(rs.next()){
-                // String value1 = rs.getString(1);
-                // String value2 = rs.getString(2);
-                // String value3 = String.valueOf(rs.getInt(3)); 
-                // String value4 = String.valueOf(rs.getInt(4));
-                // String value5 = rs.getString(5);
-                // String value6 = String.valueOf(rs.getInt(6));     
-
+		while(rs.next()){   
                 String tdata[] = {rs.getString(1),rs.getString(2),String.valueOf(rs.getInt(3)),String.valueOf(rs.getInt(4)),rs.getString(5),
                 String.valueOf(rs.getInt(6))};
                 model.addRow(tdata);
